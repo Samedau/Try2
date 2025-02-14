@@ -65,7 +65,7 @@ func main() {
 				str := []rune(tem)
 				if len(str) > 40 {
 					tem = string(str[0:40])
-					fmt.Print(tem)
+					fmt.Print("\"" + tem)
 					fmt.Println("...\"")
 				} else {
 					fmt.Print("\"" + tem + "\"")
